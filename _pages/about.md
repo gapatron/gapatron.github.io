@@ -1,49 +1,121 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Gabriel Patrón"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## About Me
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am a Ph.D. student in **Statistics** at the **University of Michigan**, advised by **Jeffrey Regier**. My work sits at the intersection of **generative modeling, probabilistic inference, and AI-driven content generation**. I am particularly interested in how machine learning can **move beyond prediction** and into **creation, interaction, and decision-making**.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Before academia, I applied machine learning to **finance, media production, and AI-driven storytelling**. I led the **AI-VFX team for the first feature film in Latin America powered by generative models**, proving that diffusion models could change the way films are made. Before that, I worked as an **AI Specialist for Media**, helping build one of the first AI-generated virtual influencers.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+I believe **content consumption should drive content creation**, and my research is about making that possible. Consumption begets creation. My work in **generative recommenders, AI-powered filmmaking, and multi-modal synthesis** reflects this. 
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+---
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## Research Interests
 
-**Markdown generator**
+🔹 **Generative Models**: Diffusion models, flow matching, and score-based generative methods.  
+🔹 **Personalized Content Generation**: How AI can move beyond static recommendation into **adaptive, user-driven creation**.  
+🔹 **Variational Inference & Probabilistic Learning**: Applying Bayesian methods to improve **robustness and interpretability** in deep learning.  
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+---
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## Selected Publication 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+📄 **Recommendations Beyond Catalogs: Diffusion Models for Personalized Recommendation**  
+Gabriel Patrón, Zhiwei Xu, Ishan Kapnadak, Felipe Maia Polo. Preprint, February 2025.  
+[[Link]](https://arxiv.org/abs/xxx)  
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+
+
+---
+
+## Work Experience  
+
+### **Director, AI-VFX**  📍 Bogotá, Colombia  
+📅 *Jul 2021 – Aug 2022* | 🎬 **Reflejos (First AI-powered Feature Film in Latin America)**  
+- Led the AI-driven **VFX pipeline** for the film, integrating **generative models for synthetic imagery and video**.  
+- Developed and showcased **AI-generated scene demos** to secure **investor funding**.  
+- Built and managed a **Machine Learning team**, hiring engineers with both technical and artistic expertise.
+- Got the **Associate Producer** title for my work on the film.
+
+### **AI Specialist for Media**  📍 Bogotá, Colombia  
+📅 *Feb 2021 – Aug 2022* | **Dirty Kitchen**  
+- Developed **Diffusion model-based** and **DeepFake** techniques for **AI-powered virtual influencers**.  
+- Built ML-powered tools to **automate media production workflows**, reducing manual work in post-production.  
+- Created **@melodijoflora**, an AI virtual influencer with 100K+ social media impressions.  
+
+### **Machine Learning Engineer**  📍 Bogotá, Colombia  
+📅 *Apr 2019 – Feb 2021* | **ADAO**  
+- Developed **risk capital compliance software** (SIMM by ISDA, FRTB by Basel Committee).  
+- Researched **NLP-based text mining** on **100GB+ financial datasets**.  
+- Designed **benchmarking and testing frameworks** for code efficiency.  
+
+---
+
+## Selected Projects  
+
+🌀 **[Markovian Music Composer](https://github.com/gapatronh/StochasticSymphonies)**  
+Trained a **Markov Chain-based model** to compose original music.  
+
+📜 **[Ancient Greek Text Summarizer](https://github.com/gapatronh/ancient_greek_summarization)**  
+Developed a **probabilistic summarization system** for **Ancient Greek texts** (pre-LLM era).  
+
+
+---
+
+## Teaching  
+
+📌 **Graduate Student Instructor, University of Michigan** *(2022 - Present)*  
+- **Winter 2025** | *DATASCI 306 (Majors)*: Intro to Statistics & Data Analysis  
+- **Fall 2024** | *DATASCI 101 (Intro)*: Intro to Data Science  
+- **Winter 2024** | *STATS 503 (Grad)*: Statistical Learning II (Multivariate Analysis)  
+- **Fall 2023** | *STATS 415 (Majors)*: Data Mining & Statistical Learning  
+- **Winter 2023** | *STATS 413 (Majors)*: Applied Regression Analysis  
+- **Fall 2022** | *STATS 250 (Intro)*: Intro to Statistics & Data Analysis  
+
+---
+
+## Awards & Fellowships  
+
+🏆 **Best Undergraduate Thesis in Statistics (2020) (UNAL)**  
+🏆 **Honorary Degree in Statistics (2020) (UNAL)**  
+🏆 **First Prize – Banistmo Regional (LATAM) Hackathon** (USD 5,000)  
+🏆 **Best Poster – International Statistics Symposium** *(Stochastic Symphonies)*  
+🏆 **Full Scholarship – Honorary Academic Merit (UNAL)** *(Top GPA in Statistics Dept.)*  
+
+
+
+## Talks & Seminars  
+
+🎤 **Generative Adversarial Networks for Climate Simulation**  
+📍 *Columbia University, IRI Institute* (2022)  
+🔗 [[Watch Talk](https://youtu.be/4kModyASUEo)]  
+
+🎤 **Training GANs with Wasserstein Distance**  
+📍 *Quantil AI, Bogotá* (2022)  
+🔗 [[Watch Talk](https://www.youtube.com/watch?v=p2beIrNg5Wg)]  
+
+🎤 **AI for Music: Stochastic Symphonies** *(Best Poster – Int’l Stats Symposium XXVIII)*  
+📍 *Universidad del Atlántico, Barranquilla* (2018)  
+🔗 [[GitHub](https://github.com/gapatronh/StochasticSymphonies)]  
+
+
+## Service & Mentoring  
+
+🎓 **Graduate Mentor – Undergraduate Research Program in Statistics (2024)**  
+- Supervised **Galaxy Cluster Detection research** for promising undergraduates.  
+
+
+
+
+## Contact  
+
+📧 **Email:** [gapatron@umich.edu](mailto:gapatron@umich.edu)  
+🔗 **Google Scholar:** [Scholar Profile](https://scholar.google.com/citations?user=7372C5gAAAAJ&hl)  
+

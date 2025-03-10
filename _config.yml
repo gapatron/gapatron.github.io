@@ -22,10 +22,10 @@ repository               : "gapatron/gapatron.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "images/profile.jpg"
   name             : "Gabriel Patron"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PhD student at the university of Michigan interested in personalized content generation. Previously lead AI-VFX for the first AI-enabled feature film in Latin America, Reflejos. Statistician from UNAL. Proudly Colombian 🇨🇴"
   location         : "Ann Arbor, MI"
   employer         : "University of Michigan"
   uri              : # URL

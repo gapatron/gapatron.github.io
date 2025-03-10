@@ -1,11 +1,14 @@
 ---
-title: 'Future Blog Post'
-date: 2199-01-01
+title: '1st Post in Construction'
+date: 2025-01-01 00:00:00 -0500
+layout: post
+author: Gabriel Patrón
+author_profile: true
 permalink: /posts/2012/08/blog-post-4/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - Generation
+  - Music
+  - Testing.
 ---
 
-This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. 
+How an adventure in composition turned into a project on of infinite music.

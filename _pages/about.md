@@ -9,9 +9,9 @@ redirect_from:
 
 ## About Me
 
-I am a Ph.D. student in **Statistics** at the **University of Michigan**, advised by **Jeffrey Regier**. My work sits at the intersection of **generative modeling, probabilistic inference, and AI-driven content generation**. I am particularly interested in how machine learning can **move beyond prediction** and into **creation, interaction, and decision-making**.
+I am a Ph.D. student in **Statistics** at the **University of Michigan**, advised by **Jeffrey Regier**. My work sits at the intersection of **generative modeling, probabilistic inference, and AI-driven content generation**. I am particularly interested in how machine learning can **move beyond prediction** and into **creation and interaction**.
 
-Before academia, I applied machine learning to **finance, media production, and AI-driven storytelling**. I led the **AI-VFX team for the first feature film in Latin America powered by generative models**, proving that diffusion models could change the way films are made. Before that, I worked as an **AI Specialist for Media**, helping build one of the first AI-generated virtual influencers.
+Before academia, I applied machine learning to **finance, media production, and AI-driven storytelling**. I led the **AI-VFX team for the first feature film in Latin America powered by generative models**, proving that generative models could change the way films are made. Before that, I worked as an **AI Specialist for Media**, helping build one of the first AI-generated virtual influencers.
 
 I believe **content consumption should drive content creation**, and my research is about making that possible. Consumption begets creation. My work in **generative recommenders, AI-powered filmmaking, and multi-modal synthesis** reflects this. 
 
@@ -19,9 +19,13 @@ I believe **content consumption should drive content creation**, and my research
 
 ## Research Interests
 
-🔹 **Generative Models**: Diffusion models, flow matching, and score-based generative methods.  
-🔹 **Personalized Content Generation**: How AI can move beyond static recommendation into **adaptive, user-driven creation**.  
-🔹 **Variational Inference & Probabilistic Learning**: Applying Bayesian methods to improve **robustness and interpretability** in deep learning.  
+🔹 **Generative Models**: Diffusion models, flow matching, and score-based generative methods, and their applications to science and media.  
+
+🔹 **Variational Inference & Probabilistic Learning**: Applying Variational Bayesian methods to improve inference speed with theoretical guarantees at the scale of future astronomical surveys. 
+
+🔹 **Personalized Content Generation**: How can we use pre-trained generative foundational media models to move beyond generic recommendation into **adaptive, user-driven creation**.  
+
+🔹 **Recommender Systems**: In the later stage of my PhD, I have developed a keen interest towards recommender systems, and I am excited to incorporate the insights of this field into my own research on personalized generation.
 
 ---
 
@@ -56,15 +60,6 @@ Gabriel Patrón, Zhiwei Xu, Ishan Kapnadak, Felipe Maia Polo. Preprint, February
 - Researched **NLP-based text mining** on **100GB+ financial datasets**.  
 - Designed **benchmarking and testing frameworks** for code efficiency.  
 
----
-
-## Selected Projects  
-
-🌀 **[Markovian Music Composer](https://github.com/gapatronh/StochasticSymphonies)**  
-Trained a **Markov Chain-based model** to compose original music.  
-
-📜 **[Ancient Greek Text Summarizer](https://github.com/gapatronh/ancient_greek_summarization)**  
-Developed a **probabilistic summarization system** for **Ancient Greek texts** (pre-LLM era).  
 
 
 ---
@@ -80,15 +75,6 @@ Developed a **probabilistic summarization system** for **Ancient Greek texts** (
 - **Fall 2022** | *STATS 250 (Intro)*: Intro to Statistics & Data Analysis  
 
 ---
-
-## Awards & Fellowships  
-
-🏆 **Best Undergraduate Thesis in Statistics (2020) (UNAL)**  
-🏆 **Honorary Degree in Statistics (2020) (UNAL)**  
-🏆 **First Prize – Banistmo Regional (LATAM) Hackathon** (USD 5,000)  
-🏆 **Best Poster – International Statistics Symposium** *(Stochastic Symphonies)*  
-🏆 **Full Scholarship – Honorary Academic Merit (UNAL)** *(Top GPA in Statistics Dept.)*  
-
 
 
 ## Talks & Seminars  
@@ -106,11 +92,34 @@ Developed a **probabilistic summarization system** for **Ancient Greek texts** (
 🔗 [[GitHub](https://github.com/gapatronh/StochasticSymphonies)]  
 
 
+## Awards & Fellowships  
+
+🏆 **Best Undergraduate Thesis in Statistics (2020) (UNAL)**  
+🏆 **Honorary Degree in Statistics (2020) (UNAL)**  
+🏆 **First Prize – Banistmo Regional (LATAM) Hackathon** (USD 5,000)  
+🏆 **Best Poster – International Statistics Symposium** *(Stochastic Symphonies)*  
+🏆 **Full Scholarship – Honorary Academic Merit (UNAL)** *(Top GPA in Statistics Dept.)*  
+
+
+
+
 ## Service & Mentoring  
 
 🎓 **Graduate Mentor – Undergraduate Research Program in Statistics (2024)**  
 - Supervised **Galaxy Cluster Detection research** for promising undergraduates.  
 
+
+---
+
+## Selected Projects  
+
+Before my Ph.D., I worked on various projects that combined my passion for AI with creative applications. Here are some highlights:
+
+🌀 **[Markovian Music Composer](https://github.com/gapatronh/StochasticSymphonies)**  
+Trained a **Markov Chain-based model** to compose original music.  
+
+📜 **[Ancient Greek Text Summarizer](https://github.com/gapatronh/ancient_greek_summarization)**  
+Developed a **probabilistic summarization system** for **Ancient Greek texts** (pre-LLM era).
 
 
 

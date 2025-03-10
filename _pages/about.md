@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Gabriel Patrón"
+title: "Gabriel Patron"
 author_profile: true
 redirect_from: 
   - /about/

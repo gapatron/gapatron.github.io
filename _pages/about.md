@@ -9,11 +9,11 @@ redirect_from:
 
 ## About Me
 
-I am a Ph.D. student in **Statistics** at the **University of Michigan**, advised by **Jeffrey Regier**. My work sits at the intersection of **generative modeling, probabilistic inference, and AI-driven content generation**. I am particularly interested in how machine learning can **move beyond prediction** and into **creation and interaction**.
+I am a Ph.D. student in Statistics at the University of Michigan, advised by Jeffrey Regier. My work sits at the intersection of **generative modeling, probabilistic inference, and AI-driven content generation**. I am particularly interested in how machine learning can move beyond prediction and into creation and interaction.
 
-Before academia, I applied machine learning to **finance, media production, and AI-driven storytelling**. I led the **AI-VFX team for the first feature film in Latin America powered by generative models**, proving that generative models could change the way films are made. Before that, I worked as an **AI Specialist for Media**, helping build one of the first AI-generated virtual influencers.
+Before academia, I applied machine learning to finance, media production, and AI-driven storytelling. I led the AI-VFX team for the first feature film in Latin America powered by generative models, proving that generative models could change the way films are made. Before that, I worked as an AI Specialist for Media, helping build one of the first AI-generated virtual influencers.
 
-I believe **content consumption should drive content creation**, and my research is about making that possible. Consumption begets creation. My work in **generative recommenders, AI-powered filmmaking, and multi-modal synthesis** reflects this. For my full CV, please refer to [CV](files/PatronGabriel_CV.pdf).
+I believe content consumption should drive content creation, and my research is about making that possible. Consumption begets creation. My work in generative recommenders, AI-powered filmmaking, and multi-modal synthesis reflects this. For my full CV, please refer to [CV](files/PatronGabriel_CV.pdf).
 
 ---
 
@@ -44,21 +44,21 @@ Gabriel Patrón, Zhiwei Xu, Ishan Kapnadak, Felipe Maia Polo. Preprint, February
 ### **Director, AI-VFX**  📍 Bogotá, Colombia  
 📅 *Jul 2021 – Aug 2022* | 🎬 **Reflejos (First AI-powered Feature Film in Latin America)**  
 - Led the AI-driven **VFX pipeline** for the film, integrating **generative models for synthetic imagery and video**.  
-- Developed and showcased **AI-generated scene demos** to secure **investor funding**.  
-- Built and managed a **Machine Learning team**, hiring engineers with both technical and artistic expertise.
-- Got the **Associate Producer** title for my work on the film.
+- Developed and showcased AI-generated scene demos to secure investor funding.  
+- Built and managed a Machine Learning team, hiring engineers with both technical and artistic expertise.
+- Earned the Associate Producer title for my work on the film.
 
 ### **AI Specialist for Media**  📍 Bogotá, Colombia  
 📅 *Feb 2021 – Aug 2022* | **Dirty Kitchen**  
-- Developed **Diffusion model-based** and **DeepFake** techniques for **AI-powered virtual influencers**.  
-- Built ML-powered tools to **automate media production workflows**, reducing manual work in post-production.  
-- Created **@melodijoflora**, an AI virtual influencer with 100K+ social media impressions.  
+- Developed Diffusion model-based and DeepFake techniques for AI-powered virtual influencers.  
+- Built ML-powered tools to automate media production workflows, reducing manual work in post-production.  
+- Created @melodijoflora, an AI virtual influencer with 100K+ social media impressions.  
 
 ### **Machine Learning Engineer**  📍 Bogotá, Colombia  
 📅 *Apr 2019 – Feb 2021* | **ADAO**  
-- Developed **risk capital compliance software** (SIMM by ISDA, FRTB by Basel Committee).  
-- Researched **NLP-based text mining** on **100GB+ financial datasets**.  
-- Designed **benchmarking and testing frameworks** for code efficiency.  
+- Developed risk capital compliance software (SIMM by ISDA, FRTB by Basel Committee).  
+- Researched NLP-based text mining on 100GB+ financial datasets.  
+- Designed benchmarking and testing frameworks for code efficiency.  
 
 
 
